@@ -1,7 +1,6 @@
 import pygame
 import time
 
-pygame.mixer.pre_init(44100, 16, 2, 4096)
 pygame.init()
 
 hitSound = pygame.mixer.Sound("oof.wav")
@@ -201,7 +200,7 @@ pygame.display.set_caption("Space Invaders")
 
 
 clock = pygame.time.Clock()
-bkg = pygame.image.load('space_back.png')
+
 
 
 
